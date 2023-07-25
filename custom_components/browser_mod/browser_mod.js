@@ -145,9 +145,11 @@ const e="undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof self&&se
 
       .content .container {
         padding: 8px 24px 20px 24px;
+        border: none;
       }
       :host([card]) .content .container {
         padding: 8px 8px 20px 8px;
+        border: none;
       }
       .content .buttons {
         box-sizing: border-box;
