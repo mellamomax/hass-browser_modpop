@@ -144,7 +144,7 @@ const e="undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof self&&se
       }
 
       .content {
-        border: none;
+        outline: none;
       }
       .content .container {
         padding: 8px 24px 20px 24px;
