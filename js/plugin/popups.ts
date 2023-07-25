@@ -316,15 +316,14 @@ class BrowserModPopup extends LitElement {
         --padding-y: var(--popup-padding-y, 20px);
       }
 
-      .content {
-        outline: none;
-      }
-      
+
       .content .container {
         padding: 8px 24px 20px 24px;
+        border: none;
       }
       :host([card]) .content .container {
         padding: 8px 8px 20px 8px;
+        border: none;
       }
       .content .buttons {
         box-sizing: border-box;
