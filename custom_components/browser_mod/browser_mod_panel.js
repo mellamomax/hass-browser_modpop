@@ -282,8 +282,7 @@ function e(e,t,i,o){var s,n=arguments.length,r=n<3?t:null===o?o=Object.getOwnPro
           </p>
 
 
-         ${3==(new Date).getMonth()&&(new Date).getDate()<8?M`
-		 
+          ${3==(new Date).getMonth()&&(new Date).getDate()<8?M`
                 <ha-expansion-panel
                   .header=${"Extra boring settings"}
                   .secondary=${"Nothing to see here"}
